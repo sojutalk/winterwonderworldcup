@@ -1,3 +1,7 @@
+$(function(){
+      alert("My First Jquery Test");
+});
+
 $(document).ready(function () {
 
 var start9 = new Date(2021, 11, 9, 0, 0, 0, 0);
