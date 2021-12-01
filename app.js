@@ -1,5 +1,5 @@
 $(function(){
-      alert("ver2");
+      alert("ver3");
 });
 
 $(document).keydown(function(e){ 
