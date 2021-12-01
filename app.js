@@ -1,6 +1,20 @@
 $(function(){
-      alert("My First Jquery Test");
+      alert("ver2");
 });
+
+$(document).keydown(function(e){ 
+    if(e.which === 123){ 
+ 
+       return false; 
+ 
+    } 
+ 
+}); 
+
+$(document).bind("contextmenu",function(e) {  
+	e.preventDefault(); 
+ 
+}); 
 
 $(document).ready(function () {
 
