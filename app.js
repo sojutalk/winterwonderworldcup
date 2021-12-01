@@ -1,5 +1,5 @@
 $(function(){
-      alert("ver4");
+      alert("ver5");
 });
 
 $(document).keydown(function(e){ 
@@ -44,6 +44,6 @@ else if (time > start12 && time < start13) {
 }
 else {
     $('div').hide();
-    $('.day9').show();
+    $('.early').show();
     }
 });
